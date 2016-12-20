@@ -11,6 +11,18 @@ Summary: Asset management for Flask, to compress and merge CSS and Javascript fi
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flask-assets-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flask-assets-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/flask-assets-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flask-assets-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flask-assets-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flask-assets-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-assets/badges/version.svg)](https://anaconda.org/conda-forge/flask-assets)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-assets/badges/downloads.svg)](https://anaconda.org/conda-forge/flask-assets)
+
 Installing flask-assets
 =======================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `flask-assets` available on your p
 ```
 conda search flask-assets --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flask-assets-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flask-assets-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/flask-assets-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flask-assets-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flask-assets-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flask-assets-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-assets/badges/version.svg)](https://anaconda.org/conda-forge/flask-assets)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-assets/badges/downloads.svg)](https://anaconda.org/conda-forge/flask-assets)
 
 
 Updating flask-assets-feedstock
