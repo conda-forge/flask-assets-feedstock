@@ -3,11 +3,11 @@ About flask-assets
 
 Home: http://github.com/miracle2k/flask-assets
 
-Package license: BSD 2-Clause
+Package license: BSD-2-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Asset management for Flask, to compress and merge CSS and Javascript files.
+Summary: Asset management for Flask, to compress and merge CSS and Javascript files
 
 
 
