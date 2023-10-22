@@ -1,4 +1,4 @@
-{% set version = "2.0" %}
+{% set version = "2.1.0" %}
 
 package:
   name: flask-assets
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/F/Flask-Assets/Flask-Assets-{{ version }}.tar.gz
-  sha256: 1dfdea35e40744d46aada72831f7613d67bf38e8b20ccaaa9e91fdc37aa3b8c2
+  sha256: f84d6532ffe59c9ff352885e8740ff4da25c0bcfacd805f0a806815e44354813
 
 build:
   number: 0
@@ -14,14 +14,14 @@ build:
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
-  build:
+  host:
     - python
     - pip
   run:
     - python
     - setuptools
     - flask >=0.8
-    - webassets >={{ version}}
+    - webassets >={{ version }}
 
 test:
   imports:
